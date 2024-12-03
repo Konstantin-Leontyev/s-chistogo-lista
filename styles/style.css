@@ -1,6 +1,10 @@
 @import url(../fonts/fonts.css);
 
 body {
+  margin: 0;
+}
+
+.container {
   background-color: #1e1e1e;
   font-family: Inter, serif;
   margin: auto;
