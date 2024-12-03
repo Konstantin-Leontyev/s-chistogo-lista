@@ -1,0 +1,227 @@
+@import url(../fonts/fonts.css);
+
+body {
+  background-color: #1e1e1e;
+  font-family: Inter, serif;
+  margin: auto;
+  width: 360px;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+.theme_black {
+  background-color: #000;
+  color: #F5F5F5;
+}
+
+.theme_grey {
+  background-color: #343434;
+  color: #F5F5F5;
+}
+
+.theme_yellow {
+  background-color: #FEE42A;
+  color: #131313;
+}
+
+.content-section {
+  box-sizing: border-box;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+.header {
+  height: 132px;
+  padding: 20px 24px;
+}
+
+.header__logo-image {
+  width: 78.45px;
+  height: 15.43px;
+}
+
+.header__menu {
+  gap: 12px;
+}
+
+.header__menu-link {
+  color: #F5F5F5;
+}
+
+.cover {
+  background-image: url(../images/cover.svg);
+  background-position: right bottom; 
+  background-repeat: no-repeat;
+  background-size: 339px 198px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 7px;
+  min-height: 228px;
+}
+
+.cover__title {
+  font-family: 'EB Garamond', sans-serif;
+  font-size: 72px;
+  font-weight: normal;
+  line-height: 100%;
+}
+
+.text-title {
+  font-family: 'EB Garamond', sans-serif;
+  font-weight: 500;
+}
+
+.text-center {
+  display: block;
+  text-align: center;
+}
+
+.text-right {
+  display: block;
+  text-align: right;
+}
+
+.intro {
+  padding-bottom: 37px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+}
+
+.intro__heading {
+  line-height: 120%;
+}
+
+.intro__title {
+  height: 38px;
+  width: 203px;
+}
+
+.intro__date {
+  text-align: right;
+  height: 38px;
+  width: 117px;
+  white-space: nowrap;
+}
+
+.intro__main-text {
+  padding-top: 24px;
+}
+
+.reason {
+  padding: 40px 20px;
+}
+
+.content-section__subtitle {
+  font-size: 28px;
+  line-height: 115%;
+}
+
+.content-section__introduction {
+  font-size: 20px;
+  line-height: 27px;
+  padding-top: 32px;
+}
+
+.content-section__list {
+  row-gap: 16px;
+  padding-top: 32px;
+  padding-left: 15px;
+}
+
+.content-section__list-item {
+  font-size: 16px;
+  line-height: 21.6px;
+}
+
+.accent-span {
+  font-weight: bold;
+}
+
+.how-to {
+  padding: 40px 20px 60px;
+}
+
+.cards-list {
+  padding-top: 32px;
+  row-gap: 32px;
+}
+
+.card {
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.card__author {
+  height: 128px;  
+  width: 163px;
+}
+
+.card__author-name {
+  font-size: 16px;
+  line-height: 135%;
+  font-weight: bold;
+}
+
+.card__author-photo {
+  height: 100px;
+  border-radius: 50px;
+  width: 100px;
+}
+
+.card__content {
+ padding: 20 px;
+ padding-top: 7px;
+}
+
+.card__title {
+  font-size: 22px;
+  line-height: 135%;
+}
+
+.card__text {
+  font-size: 16px;
+  line-height: 21.6px;
+  padding-top: 8px;
+  padding-bottom: 20px;
+}
+
+.footer {
+  border-top: 1px solid #FEE42A;
+  padding: 20px;
+}
+
+.footer__copy {
+  font-size: 16px;
+  line-height: 135%;
+}
+
+.footer__social-list {
+  display: flex;
+  color: #F5F5F5;
+  font-size: 14px;
+  line-height: 125%;
+  column-gap: 16px;
+}
+
+.footer__social-list-link {
+  color: #F5F5F5;
+  text-decoration: none;
+}
