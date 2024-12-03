@@ -1,13 +1,10 @@
 @import url(../fonts/fonts.css);
 
 body {
-  padding: 0;
-}
-
-.container {
   background-color: #1e1e1e;
   font-family: Inter, serif;
   margin: auto;
+  padding: 0;
   width: 360px;
 }
 
